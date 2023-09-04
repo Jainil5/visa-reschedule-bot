@@ -1,7 +1,7 @@
 # Visa-reschedule-Chatbot
  
 ### About Visa-reschedule-Chatbot
-* SmartBot is a AI based website.
+* A chatbot that can reschedule your visa dates just through chat.
 
 
 ### Technologies used in development
