@@ -1,0 +1,156 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!","Wow","Amazing","Nice"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "prices",
+      "patterns": [
+        "What are the prices?",
+        "What is the price?",
+        "Show me prices.",
+        "What do you have the price for this?",
+        "prices"
+      ],
+      "responses": [
+        "We will charge you for the process based on your selections. We'll update that later."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with PayTM?",
+        "Are you cash only?",
+        "What is payment process?",
+        "You dont have cash on delivery?",
+        "You have COD?",
+        "Is COD accepted?",
+        "How will I have to pay?"
+      ],
+      "responses": [
+        "We accept online payments only."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "How long will it take?",
+        "How long does order take?",
+        "When do I get my order?",
+        "When will you send it to me?",
+        "What time will this process take?"
+      ],
+      "responses": [
+        "Rescheduling process will take few minutes only."
+      ]
+    },
+    {
+      "tag": "what",
+      "patterns": [
+        "What can you do?",
+        "What do you do?",
+        "What is your work?",
+        "What is your use?",
+        "What can you perform?",
+        "What are you trained for?",
+        "What is the process of visa rescheduling?"
+      ],
+      "responses": [
+        "I can reschedule your visa application dates just through this chat, without any hustle."
+      ]
+    },
+    {
+      "tag": "how",
+      "patterns": [
+        "How can you do that?",
+        "How do you do that?",
+        "how do you work?",
+        "How can you perform that?",
+        "How?",
+        "How will you do it?"
+      ],
+      "responses": [
+        "I will reschedule your application dates you enter and book it myself."
+      ]
+    },
+    {
+      "tag": "dates",
+      "patterns": [
+        "What dates are available for my rescheduling?",
+        "Which dates are available?",
+        "Which are the dates that i have?",
+        "Tell me dates that are available?",
+        "Can you check which dates are available?",
+        "I want to check my dates.",
+        "Which dates are there?"
+      ],
+      "responses": [
+        "To check dates available, just type 'dates'."
+      ]
+    },
+    {
+      "tag": "login",
+      "patterns": [
+        "How will you get my data?",
+        "How will I have to login?",
+        "What is the login process?",
+        "How will you get my account?",
+        "Can you check it with my application number?",
+        "How will you take my account?",
+        "How will you get my dates?",
+        "How to login?",
+        "How should I login?",
+        "How can I add my account?",
+        "How will I have to signup for this?",
+        "How should I signup for this?"
+      ],
+      "responses": [
+        "For that you need to login, just type 'login'."
+      ]
+    },
+    {
+      "tag": "logout",
+      "patterns": [
+        "How will I have to logout?",
+        "What is the logout process?",
+        "How will you remove my account?",
+        "Can you remove my application number?",
+        "How will you remove my account?",
+        "How to logout?",
+        "How should I logout?",
+        "Log out my account."
+      ],
+      "responses": [
+        "To log out of the system, just type 'logout'."
+      ]
+    }
+  ]
+}
